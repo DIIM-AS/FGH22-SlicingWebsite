@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Tickitz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="image-box">
+            <img src="photo/Group10.png" alt="Sign Up Image" class="main-image">
+            <div class="overlay">
+                <img src="photo/tickitz1.png" alt="Tickitz Logo" class="overlay-logo">
+                <p class="overlay-text">wait,watch,wow!</p>
+            </div>
+        </div>
+        <div class="form-box">
+            <header>
+                <div class="logo-box">
+                   <h1 class="sign-up">Singn up</h1>
+                   <p class="detail-header">Fill your additional details</p>
+                </div>
+            </header>
+
+            <main>
+                <div class="signup-container">
+                    <form class="signup-form">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" placeholder="Write your first name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Write your last name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="tel" id="phone-number" name="phone-number" placeholder="Write your phone number" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Write your email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Write your password" required>
+                        </div>
+
+                        <button type="submit" class="signup-btn">Sign Up</button>
+
+                        <p class="signin-link">Already have an account? <a href="#">Sign In</a></p>
+                    </form>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F7F7FC;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Flex Container */
+.flex-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Image Box Styling */
+.image-box {
+    flex: 1;
+    position: relative;
+    overflow: hidden; /* Ensure no overflow from the image */
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Fill the container without stretching the image */
+}
+
+/* Overlay (Logo and Text) */
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.overlay-logo {
+    width: 500px; /* Adjust size accordingly */
+    margin-bottom: 1rem;
+}
+
+.overlay-text {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Form Box Styling */
+.form-box {
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.logo-box img {
+    width: 150px; /* Adjust size accordingly */
+}
+.sign-in {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+letter-spacing: 0.003em;
+
+color: #121212;
+
+
+}
+.detail-header {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #AAAAAA;
+
+
+}
+
+/* Container for Sign Up Form */
+.signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Form Styling */
+.signup-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    color: #6B6B6B;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.signup-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #5F2EEA;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+    background-color: #4b23c0;
+}
+
+.forget-password {
+    text-align:center ;
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #6B6B6B;
+}
+.forget-password a {
+    color: #5F2EEA;
+    text-decoration: none;
+    font-weight: bold;
+}
+.signin-link {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #6B6B6B;
+}
+
+.signin-link a {
+    color: #5F2EEA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signin-link a:hover {
+    text-decoration: underline;
+}
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+    .overlay-text {
+        font-size: 2.5rem;
+    }
+
+    .overlay-logo {
+        max-width: 400px;
+    }
+
+    .form-box {
+        padding: 1.5rem;
+    }
+
+    .sign-in {
+        font-size: 2.5rem;
+    }
+}
+
+/* Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .overlay-text {
+        font-size: 2rem;
+    }
+
+    .overlay-logo {
+        max-width: 300px;
+    }
+
+    .form-box {
+        padding: 1rem;
+    }
+
+    .sign-in {
+        font-size: 2rem;
+    }
+
+    .signup-container {
+        max-width: 100%;
+    }
+}
