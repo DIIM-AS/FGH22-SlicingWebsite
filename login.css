@@ -195,7 +195,7 @@ color: #AAAAAA;
 /* Mobile Devices (480px and below) */
 @media (max-width: 480px) {
     .flex-container {
-        flex-direction: column;
+     flex-direction: column;  
     }
 
     .overlay-text {
