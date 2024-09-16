@@ -1,7 +1,7 @@
 ## Display
 ![Home](/photo/Homepage.png)
-![SignUp](/photo/Sign Up.png)
-![SignIn](/photo/Sign In.png)
+![SignUp](/photo/Sign_Up.png)
+![SignIn](/photo/Sign_in.png)
 # Task HTML & CSS Slicing
 
 Project ini ditujukan untuk talent FazzTrack untuk lebih memahami cara implementasi dasar dari HTML dan CSS dengan cara mengcloning tampilan semirip mungkin dengan contoh atau mock up yang ada di figma.
