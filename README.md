@@ -2,7 +2,7 @@
 ![Home](/photo/Homepage.png)
 ![SignUp](/photo/SignUp.png)
 ![SignIn](/photo/SignIn.png)
-# Task HTML & CSS Slicing
+# Slicing Website
 
 Project ini ditujukan untuk talent FazzTrack untuk lebih memahami cara implementasi dasar dari HTML dan CSS dengan cara mengcloning tampilan semirip mungkin dengan contoh atau mock up yang ada di figma.
 
